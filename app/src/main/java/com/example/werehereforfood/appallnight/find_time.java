@@ -5,14 +5,17 @@ package com.example.werehereforfood.appallnight;
  */
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Date;
 
 
 public class find_time
 {
-    public static void main(String[] args)
+
+
+    public static Date getTime()
     {
         Calendar cal = Calendar.getInstance();
         SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
-        System.out.println(sdf.format(cal.getTime()));
+        return cal.getTime();
     }
 }
