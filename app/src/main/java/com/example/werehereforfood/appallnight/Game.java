@@ -8,7 +8,7 @@ public class Game {
     private String name;
     private boolean complete;
 
-    public Game(String name, boolean complete) {
+    public Game(String name) {
         this.name = name;
         this.complete = false;
     }
