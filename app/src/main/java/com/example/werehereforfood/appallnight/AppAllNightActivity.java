@@ -1,9 +1,11 @@
 package com.example.werehereforfood.appallnight;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class AppAllNightActivity extends ActionBarActivity {
@@ -34,5 +36,9 @@ public class AppAllNightActivity extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+    public void addSession(View view)
+    {
+
     }
 }
